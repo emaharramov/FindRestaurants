@@ -465,7 +465,7 @@ h2 {
 #form > p {
     color: black;
     font: 1.2em "Poppins";
-    margin: 12px auto;
+    margin: 12px 0;
 }
 #textareaInp {
     width: 100%;
