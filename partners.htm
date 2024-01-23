@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Find Restaurants" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, jQuery" />
+    <meta name="author" content="Emil Maharramov" />
+    <title>Find Restaurants</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/font.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/50a6985b00.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header  -->
+    <header>
+      <div class="mobile">
+        <!-- hamburger -->
+        <div>
+          <i id="hamburger" class="fa-solid fa-burger fa-xl"></i>
+        </div>
+
+        <!-- logo -->
+
+        <div>
+          <a href="index.htm"
+            ><img id="mobile_log" src="/img/logo.png" alt="mobile_Logo"
+          /></a>
+        </div>
+
+        <!-- user -->
+
+        <div><i id="user_login" class="fa-solid fa-user"></i></div>
+      </div>
+
+      <div class="menu2">
+        <ul id="menu2">
+          <div id="mark">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <li><a href="index.htm">Home</a></li>
+          <li><a href="category.htm">Category</a></li>
+          <li><a href="partners.htm">Partners</a></li>
+          <li><a href="/about.htm">About</a></li>
+          <li><a href="/contact.htm">Contact</a></li>
+          <li><a href="/whoiswe.htm">Who is we?</a></li>
+          <div class="head_soc m10">
+            <a href="http://facebook.com" target="_blank"
+              ><i class="fa-brands fa-facebook scl fa-xl"></i
+            ></a>
+            <a href="http://twitter.com" target="_blank"
+              ><i class="fa-brands fa-square-twitter scl fa-xl"></i
+            ></a>
+            <a href="http://youtube.com" target="_blank"
+              ><i class="fa-brands fa-youtube scl fa-xl"></i
+            ></a>
+          </div>
+        </ul>
+      </div>
+      <div class="container">
+        <nav>
+          <ul id="menu">
+            <a href="index.htm"
+              ><img id="logo" name="#top" src="img/logo.png" alt="Logo"
+            /></a>
+            <li><a href="index.htm">Home</a></li>
+            <li><a href="category.htm">Category</a></li>
+            <li><a href="partners.htm">Partners</a></li>
+            <li><a href="about.htm">About</a></li>
+            <li><a href="contact.htm">Contact</a></li>
+            <li><a href="whoiswe.htm">Who is we?</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main  -->
+    <main>
+      <div class="container">
+        <div>
+          <label id="searchLabel">
+            <input
+              type="search"
+              onchange="findPartners()"
+              id="search"
+              placeholder="Search"
+            />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </label>
+        </div>
+        <div id="restaurantsList"></div>
+        <div class="moreThan">
+          <button id="moreThan" onclick="moreThan()">more than</button>
+        </div>
+        <div class="toContactPage">
+          <img
+            onclick="toConPage()"
+            id="toContactPage"
+            src="img/toContactPage.png"
+          />
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer  -->
+    <footer>
+      <h2 class="footer_head">Restaurants on one page</h2>
+      <div class="footter container">
+        <div class="footer_part1">
+          <div class="footer_alt_part">
+            <p id="contacts_main">Contacts</p>
+            <p id="m20">Phone: ( +994 ) 55 555 55 00</p>
+            <p id="m20">Email: emil.mhrr@div.edu.az</p>
+            <div id="m20" id="socials">
+              <a href="http://facebook.com" target="_blank"
+                ><i class="fa-brands fa-facebook-f m27"></i
+              ></a>
+              <a href="http://twitter.com" target="_blank"
+                ><i class="fa-brands fa-x-twitter m27"></i
+              ></a>
+              <a href="http://youtube.com" target="_blank"
+                ><i class="fa-brands fa-square-youtube m27"></i
+              ></a>
+            </div>
+          </div>
+          <div id="socials">
+            <a href="#top"><i class="fa-solid fa-angle-up"></i></a>
+          </div>
+        </div>
+        <div id="links_footer">
+          <h3 class="useful_links m20">Useful Links</h3>
+          <ul>
+            <li class="m10">
+              <i class="fa-solid fa-chevron-right"></i>
+              <a href="index.htm">Home</a>
+            </li>
+            <li class="m10">
+              <i class="fa-solid fa-chevron-right"></i>
+              <a href="category.htm">Category</a>
+            </li>
+            <li class="m10">
+              <i class="fa-solid fa-chevron-right"></i>
+              <a href="innovation.htm">Innovation</a>
+            </li>
+            <li class="m10">
+              <i class="fa-solid fa-chevron-right"></i>
+              <a href="whoiswe.htm">Who is we?</a>
+            </li>
+            <li class="m10">
+              <i class="fa-solid fa-chevron-right"></i>
+              <a href="about.htm">About</a>
+            </li>
+          </ul>
+        </div>
+        <div id="links_footer2">
+          <h3 class="get_offers">Get new & offers</h3>
+          <p class="foot_last_part m10">
+            From innovations subscribe to <br />
+            receive news
+          </p>
+          <form class="m40">
+            <p id="subs">
+              <input
+                id="inp"
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+              <button id="btnsubs" type="submit">Subscribe</button>
+            </p>
+          </form>
+        </div>
+      </div>
+
+      <div class="m50 container" id="last">
+        <p>
+          © 2022
+          <span style="color: #eb8c0e"> Restaurants on one page </span>
+          copyright reserved
+        </p>
+        <div id="socials2" class="m10">
+          <a href="#top"><i class="fa-solid fa-angle-up white"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="hamburger.js"></script>
+    <script src="partners.js"></script>
+  </body>
+</html>

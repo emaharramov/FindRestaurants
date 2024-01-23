@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Find Restaurants">
+    <meta name="keywords" content="HTML, CSS, JavaScript, jQuery">
+    <meta name="author" content="Emil Maharramov">
+    <title>Find Restaurants</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/font.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+			integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+  </head>
+  <body>
+    <!-- Header  -->
+    <header>
+      <div class="mobile">
+        <!-- hamburger -->
+        <div>
+          <i id="hamburger" class="fa-solid fa-burger fa-xl "></i>
+        </div>
+
+        <!-- logo -->
+
+        <div>
+          <a href="index.htm"
+            ><img id="mobile_log" src="/img/logo.png" alt="mobile_Logo"
+          /></a>
+        </div>
+
+        <!-- user -->
+
+        <div><i id="user_login" class="fa-solid fa-user"></i></div>
+      </div>
+
+      <div class="menu2">
+        <ul id="menu2">
+          <div id="mark">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <li><a href="index.htm">Home</a></li>
+          <li><a href="category.htm">Category</a></li>
+          <li><a href="partners.htm">Partners</a></li>
+          <li><a href="/about.htm">About</a></li>
+          <li><a href="/contact.htm">Contact</a></li>
+          <li><a href="/whoiswe.htm">Who is we?</a></li>
+          <div class="head_soc m10">
+            <a href="http://facebook.com" target="_blank"
+              ><i class="fa-brands fa-facebook scl fa-xl"></i
+            ></a>
+            <a href="http://twitter.com" target="_blank"
+              ><i class="fa-brands fa-square-twitter scl fa-xl"></i
+            ></a>
+            <a href="http://youtube.com" target="_blank"
+              ><i class="fa-brands fa-youtube scl fa-xl"></i
+            ></a>
+          </div>
+        </ul>
+      </div>
+      <div class="container">
+        <nav>
+
+          <ul id="menu">
+            <a href="index.htm"><img id="logo" name="#top" src="img/logo.png" alt="Logo"></a>
+            <li><a href="index.htm">Home</a></li>
+            <li><a href="category.htm">Category</a></li>
+            <li><a href="partners.htm">Partners</a></li>
+            <li><a href="about.htm">About</a></li>
+            <li><a href="contact.htm">Contact</a></li>
+            <li><a href="whoiswe.htm">Who is we?</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main  -->
+    <main>
+      <div id="slider">
+        <div class="owl-carousel">
+          <div>
+            <img src="img/sliderimg/s1.jpg" alt="" class="images" />
+          </div>
+          <div>
+            <img
+              src="img/sliderimg/s2.jpg"
+              alt=""
+              class="images"
+            />
+          </div>
+          <div>
+            <img
+              src="img/sliderimg/s3.jpg"
+              alt=""
+              class="images"
+            />
+          </div>
+          <div>
+            <img
+              class="images"
+              src="img/sliderimg/s4.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="img/sliderimg/s5.jpg"
+              alt=""
+              class="images"
+            />
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="containerCate">
+        <div class="deme2">
+          <div class="deme" id="advSearch">
+            <p class="advSearch">Advanced Search</p>
+          </div>
+          <div id="deme">
+            <div class="yoxla">
+              <div class="mright" id="gridFunc" onclick="grid()">
+                <i class="fa-solid fa-table-cells-large fa-xl"></i>
+              </div>
+              <div class="mright" id="listFunc" onclick="list()">
+                <i class="fa-solid fa-rectangle-list fa-xl"></i>
+              </div>
+            </div>
+            <div>
+              <div class="sortSelectLabel">
+                <div class="flip">
+                  Sort by <i class="fa-solid fa-sort-up"></i>
+                </div>
+                <div class="panel" style="display: none;">
+                  <p class="sortP">Sort 1</p>
+                  <p class="sortP">Sort 2</p>
+                  <p class="sortP">Sort 3</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="categoryMain">
+          <div id="sec1">
+            <div id="findCategory">
+              <form class="catSearch">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input
+                  type="text"
+                  id="catSearch"
+                  placeholder="Restoran axtar"
+                />
+              </form>
+              <div class="catHead">
+                <p style="padding-left: 13px">All Category</p>
+                <i class="fa-solid fa-angle-up upIcon" id="upIcon"></i>
+              </div>
+              <div id="panel">
+                <div id="paneL"></div>
+              </div>
+              <div class="catHead">
+                <p style="padding-left: 13px">City Area</p>
+                <i class="fa-solid fa-angle-up upIcon" id="upIcon1"></i>
+              </div>
+              <div id="panel2">
+                <div id="paneL2"></div>
+              </div>
+              <div class="catHead">
+                <p style="padding-left: 13px">Spatial Image</p>
+                <i class="fa-solid fa-angle-up upIcon" id="upIcon2"></i>
+              </div>
+              <div id="panel3">
+                <div id="paneL3"></div>
+              </div>
+              <div id="catSearchBtn">
+                <button class="catSearchBtn" onclick="second()">Search</button>
+              </div>
+            </div>
+            <div class="deme advSea" id="advSearch">
+              <p class="advSearch">Popular Restaurants</p>
+            </div>
+            <div>
+              <div class="mainPop" id="mainPopJS"></div>
+            </div>
+          </div>
+          <div id="sec2"></div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer  -->
+    <footer>
+      <h2 class="footer_head">Restaurants on one page</h2>
+      <div class="footter container">
+        <div class="footer_part1">
+          <div class="footer_alt_part">
+            <p id="contacts_main">Contacts</p>
+            <p id="m20">Phone: ( +994 ) 55 555 55 00</p>
+            <p id="m20">Email: emil.mhrr@div.edu.az</p>
+            <div id="m20" class="socialsfoot">
+              <a href="http://facebook.com" target="_blank"
+                ><i class="fa-brands fa-facebook-f m27"></i
+              ></a>
+              <a href="http://twitter.com" target="_blank"
+                ><i class="fa-brands fa-x-twitter m27"></i
+              ></a>
+              <a href="http://youtube.com" target="_blank"
+                ><i class="fa-brands fa-square-youtube m27"></i
+              ></a>
+            </div>
+          </div>
+          <div id="socials">
+            <a href="#top"><i class="fa-solid fa-angle-up"></i></a>
+          </div>
+        </div>
+        <div id="links_footer">
+          <h3 class="useful_links m20">Useful Links</h3>
+          <ul>
+            <li class="m10">
+              <i class="fa-solid fa-chevron-right"></i> <a href="index.htm">Home</a>
+            </li>
+            <li class="m10">
+              <i class="fa-solid fa-chevron-right"></i>
+              <a href="category.htm">Category</a>
+            </li>
+            <li class="m10">
+              <i class="fa-solid fa-chevron-right"></i>
+              <a href="innovation.htm">Innovation</a>
+            </li>
+            <li class="m10">
+              <i class="fa-solid fa-chevron-right"></i>
+              <a href="whoiswe.htm">Who is we?</a>
+            </li>
+            <li class="m10">
+              <i class="fa-solid fa-chevron-right"></i>
+              <a href="about.htm">About</a>
+            </li>
+          </ul>
+        </div>
+        <div id="links_footer2">
+          <h3 class="get_offers">Get new & offers</h3>
+          <p class="foot_last_part m10">
+            From innovations subscribe to <br />
+            receive news
+          </p>
+          <form class="m40">
+            <p id="subs">
+              <input
+                id="inp"
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+              <button id="btnsubs" type="submit">Subscribe</button>
+            </p>
+          </form>
+        </div>
+      </div>
+
+      <div class="m50 container" id="last">
+        <p>
+          © 2022
+          <span style="color: #eb8c0e"> Restaurants on one page </span>
+          copyright reserved
+        </p>
+        <div id="socials2" class="m10">
+          <a href="#top"><i class="fa-solid fa-angle-up white"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- Script -->
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="hamburger.js"></script>
+  <script src="category.js"></script>
+  </body>
+</html>
