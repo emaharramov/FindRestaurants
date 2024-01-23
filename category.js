@@ -25,7 +25,7 @@ const upIcon = document.getElementById("upIcon");
 let obj = [
   {
     id: 1,
-    img: "/img/Div-img.png",
+    img: "img/Div-img.png",
     ad: "Central Baku",
     phone: "+994 (55)200-50-50",
     address: "Baku city 1005, 75 Nizami St,",
@@ -37,7 +37,7 @@ let obj = [
   },
   {
     id: 2,
-    img: "/img/Div-img.png",
+    img: "img/Div-img.png",
     ad: "Burger King",
     phone: "+994 (55)200-50-50",
     address: "Baku city 1005, 75 Nizami St,",
@@ -49,7 +49,7 @@ let obj = [
   },
   {
     id: 3,
-    img: "/img/Div-img.png",
+    img: "img/Div-img.png",
     ad: "Kah Kaha",
     phone: "+994 (55)200-50-50",
     address: "Baku city 1005, 75 Nizami St,",
@@ -61,7 +61,7 @@ let obj = [
   },
   {
     id: 4,
-    img: "/img/Div-img.png",
+    img: "img/Div-img.png",
     ad: "Dolma",
     phone: "+994 (55)200-50-50",
     address: "Baku city 1005, 75 Nizami St,",
@@ -73,7 +73,7 @@ let obj = [
   },
   {
     id: 5,
-    img: "/img/Div-img.png",
+    img: "img/Div-img.png",
     ad: "Özsüt",
     phone: "+994 (55)200-50-50",
     address: "Baku city 1005, 75 Nizami St,",
@@ -85,7 +85,7 @@ let obj = [
   },
   {
     id: 6,
-    img: "/img/Div-img.png",
+    img: "img/Div-img.png",
     ad: "Tostçu Orhan",
     phone: "+994 (55)200-50-50",
     address: "Baku city 1005, 75 Nizami St,",
@@ -97,7 +97,7 @@ let obj = [
   },
   {
     id: 7,
-    img: "/img/Div-img.png",
+    img: "img/Div-img.png",
     ad: "Pizza Mizza",
     phone: "+994 (55)200-50-50",
     address: "Baku city 1005, 75 Nizami St,",
@@ -109,7 +109,7 @@ let obj = [
   },
   {
     id: 8,
-    img: "/img/Div-img.png",
+    img: "img/Div-img.png",
     ad: "Central Baku",
     phone: "+994 (55)200-50-50",
     address: "Baku city 1005, 75 Nizami St,",
@@ -121,7 +121,7 @@ let obj = [
   },
   {
     id: 9,
-    img: "/img/Div-img.png",
+    img: "img/Div-img.png",
     ad: "Mc Donalds",
     phone: "+994 (55)200-50-50",
     address: "Baku city 1005, 75 Nizami St,",
@@ -133,7 +133,7 @@ let obj = [
   },
   {
     id: 10,
-    img: "/img/Div-img.png",
+    img: "img/Div-img.png",
     ad: "Burger House",
     phone: "+994 (55)200-50-50",
     address: "Baku city 1005, 75 Nizami St,",
@@ -145,7 +145,7 @@ let obj = [
   },
   {
     id: 11,
-    img: "/img/Div-img.png",
+    img: "img/Div-img.png",
     ad: "Meatadore",
     phone: "+994 (55)200-50-50",
     address: "Baku city 1005, 75 Nizami St,",
@@ -157,7 +157,7 @@ let obj = [
   },
   {
     id: 12,
-    img: "/img/Div-img.png",
+    img: "img/Div-img.png",
     ad: "Mado",
     phone: "+994 (55)200-50-50",
     address: "Baku city 1005, 75 Nizami St,",
@@ -189,7 +189,7 @@ function grid() {
                                 </div>
                                 <div class="restoranInfo">
                                     <div class="plus">
-                                        <img src="/img/mob.png" />
+                                        <img src="img/mob.png" />
                                     </div>
                                     <div>
                                         <span class="text">${item.phone}</span>
@@ -197,7 +197,7 @@ function grid() {
                                 </div>
                                 <div class="restoranInfo" >
                                     <div>
-                                        <img src="/img/loc.png" />
+                                        <img src="img/loc.png" />
                                     </div>
                                     <div>
                                         <span class="text">${item.address}</span>
@@ -205,7 +205,7 @@ function grid() {
                                 </div>
                                 <div class="restoranInfo">
                                     <div>
-                                        <img src="/img/clock.png" />
+                                        <img src="img/clock.png" />
                                     </div>
                                     <div>
                                         <span class="text">${item.workTime}</span>
@@ -222,7 +222,7 @@ function grid() {
                                     </div>
                                     <div class="restoranInfo">
                                         <div>
-                                            <img src="/img/comment.png" />
+                                            <img src="img/comment.png" />
                                         </div>
                                         <div>
                                             <span class="text">${item.comment}</span>
@@ -279,7 +279,7 @@ function list() {
                                 <p id="resListname">${item.ad}</p>
                                 <div class="restoranInfo">
                                     <div class="mright">
-                                        <img src="/img/mob.png" />
+                                        <img src="img/mob.png" />
                                     </div>
                                     <div>
                                         <span class="text">${item.phone}</span>
@@ -287,7 +287,7 @@ function list() {
                                 </div>
                                 <div class="restoranInfo">
                                     <div class="mright">
-                                        <img src="/img/loc.png" />
+                                        <img src="img/loc.png" />
                                     </div>
                                     <div>
                                         <span class="text">${item.address}</span>
@@ -295,7 +295,7 @@ function list() {
                                 </div>
                                 <div class="restoranInfo">
                                     <div class="mright">
-                                        <img src="/img/clock.png" />
+                                        <img src="img/clock.png" />
                                     </div>
                                     <div>
                                         <span class="text">${item.workTime}</span>
@@ -311,7 +311,7 @@ function list() {
                                     </div>
                                     <div class="restoranInfo">
                                         <div class="mright">
-                                            <img src="/img/comment.png" />
+                                            <img src="img/comment.png" />
                                         </div>
                                         <div>
                                             <span class="text">8</span>
@@ -466,7 +466,7 @@ for (let i = 0; i < popular.length; i++) {
   mainPopJ += `
                     <div id="mainPop">
                         <div>
-                            <img id="mainPopImg" src="/img/popular/${popular[i].img}.png"/>
+                            <img id="mainPopImg" src="img/popular/${popular[i].img}.png"/>
                         </div>
                         <div class="mainPopSec">
                             <div class="mainPopName">${popular[i].ad}</div>
@@ -500,7 +500,7 @@ function showData(arr) {
                 </div>
                 <div class="restoranInfo">
                     <div class="plus">
-                        <img src="/img/mob.png" />
+                        <img src="img/mob.png" />
                     </div>
                     <div>
                         <span class="text">${item.phone}</span>
@@ -508,7 +508,7 @@ function showData(arr) {
                 </div>
                 <div class="restoranInfo" >
                     <div>
-                        <img src="/img/loc.png" />
+                        <img src="img/loc.png" />
                     </div>
                     <div>
                         <span class="text">${item.address}</span>
@@ -516,7 +516,7 @@ function showData(arr) {
                 </div>
                 <div class="restoranInfo">
                     <div>
-                        <img src="/img/clock.png" />
+                        <img src="img/clock.png" />
                     </div>
                     <div>
                         <span class="text">${item.workTime}</span>
@@ -533,7 +533,7 @@ function showData(arr) {
                     </div>
                     <div class="restoranInfo">
                         <div>
-                            <img src="/img/comment.png" />
+                            <img src="img/comment.png" />
                         </div>
                         <div>
                             <span class="text">${item.comment}</span>

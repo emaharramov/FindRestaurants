@@ -8,19 +8,19 @@ function radiobutton1() {
 
   cardsMain3.innerHTML = `
                        <div id="cardUser">
-                           <img id="userphoto" src="/img/user1.png" alt="UserPhoto">
+                           <img id="userphoto" src="img/user1.png" alt="UserPhoto">
                            <p class="cardUserText">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                            <p class="cardUserName">Gareth Smith</p>
                            <p class="cardUserVac">interface designer</p>
                        </div>
                        <div id="cardUser">
-                           <img id="userphoto" src="/img/user1.png" alt="UserPhoto">
+                           <img id="userphoto" src="img/user1.png" alt="UserPhoto">
                            <p class="cardUserText">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                            <p class="cardUserName">Lopez Smith</p>
                            <p class="cardUserVac">interface designer</p>
                        </div>
                        <div id="cardUser">
-                           <img id="userphoto" src="/img/user1.png" alt="UserPhoto">
+                           <img id="userphoto" src="img/user1.png" alt="UserPhoto">
                            <p class="cardUserText">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                            <p class="cardUserName">Jennifer Smith</p>
                            <p class="cardUserVac">interface designer</p>
@@ -33,19 +33,19 @@ function radiobutton2() {
 
   cardsMain3.innerHTML = `
                            <div id="cardUser">
-                           <img id="userphoto" src="/img/user1.png" alt="UserPhoto">
+                           <img id="userphoto" src="img/user1.png" alt="UserPhoto">
                            <p class="cardUserText">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                            <p class="cardUserName">Lopez</p>
                            <p class="cardUserVac">interface designer</p>
                        </div>
                        <div id="cardUser">
-                           <img id="userphoto" src="/img/user1.png" alt="UserPhoto">
+                           <img id="userphoto" src="img/user1.png" alt="UserPhoto">
                            <p class="cardUserText">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                            <p class="cardUserName">Gareth</p>
                            <p class="cardUserVac">interface designer</p>
                        </div>
                        <div id="cardUser">
-                           <img id="userphoto" src="/img/user1.png" alt="UserPhoto">
+                           <img id="userphoto" src="img/user1.png" alt="UserPhoto">
                            <p class="cardUserText">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                            <p class="cardUserName"> Smith</p>
                            <p class="cardUserVac">interface designer</p>
@@ -57,19 +57,19 @@ function radiobutton3() {
 
   cardsMain3.innerHTML = `
                            <div id="cardUser">
-                           <img id="userphoto" src="/img/user1.png" alt="UserPhoto">
+                           <img id="userphoto" src="img/user1.png" alt="UserPhoto">
                            <p class="cardUserText">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                            <p class="cardUserName">Gareth</p>
                            <p class="cardUserVac">interface designer</p>
                        </div>
                        <div id="cardUser">
-                           <img id="userphoto" src="/img/user1.png" alt="UserPhoto">
+                           <img id="userphoto" src="img/user1.png" alt="UserPhoto">
                            <p class="cardUserText">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                            <p class="cardUserName">Lopez</p>
                            <p class="cardUserVac">interface designer</p>
                        </div>
                        <div id="cardUser">
-                           <img id="userphoto" src="/img/user1.png" alt="UserPhoto">
+                           <img id="userphoto" src="img/user1.png" alt="UserPhoto">
                            <p class="cardUserText">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                            <p class="cardUserName">Smith</p>
                            <p class="cardUserVac">interface designer</p>
@@ -81,19 +81,19 @@ function radiobutton4() {
 
   cardsMain3.innerHTML = `
                            <div id="cardUser">
-                           <img id="userphoto" src="/img/user1.png" alt="UserPhoto">
+                           <img id="userphoto" src="img/user1.png" alt="UserPhoto">
                            <p class="cardUserText">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                            <p class="cardUserName">Lopez</p>
                            <p class="cardUserVac">interface designer</p>
                        </div>
                        <div id="cardUser">
-                           <img id="userphoto" src="/img/user1.png" alt="UserPhoto">
+                           <img id="userphoto" src="img/user1.png" alt="UserPhoto">
                            <p class="cardUserText">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                            <p class="cardUserName">Gareth</p>
                            <p class="cardUserVac">interface designer</p>
                        </div>
                        <div id="cardUser">
-                           <img id="userphoto" src="/img/user1.png" alt="UserPhoto">
+                           <img id="userphoto" src="img/user1.png" alt="UserPhoto">
                            <p class="cardUserText">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                            <p class="cardUserName"> Smith</p>
                            <p class="cardUserVac">interface designer</p>
