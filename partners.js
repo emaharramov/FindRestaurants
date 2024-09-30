@@ -34,22 +34,20 @@ function resInfo() {
 
 function findPartners() {
   restaurantsList.innerHTML = "";
+
+  let searchTerm = search.value.toLowerCase();
+
   for (let j = 1; j < res.length; j++) {
-    let y = res[j].split(" ").join(" ").toLowerCase().split(" ");
-    if (
-      search.value == res[j] ||
-      search.value == res[j].split(" ")[0] ||
-      search.value == res[j].split(" ")[1] ||
-      search.value == y[0] ||
-      search.value == y[1]
-    ) {
-      restaurantsList.innerHTML = `
-                                        <div id="restaurantInfo">
-                                            <img id="restaurantLogo" src="img/restaurantsLogo/res${j}.png">
-                                            <p id="restaurantName">${res[j]}</p>
-                                        </div>
-                                            `;
-    } else if (search.value == "") resInfo();
+    let restaurantName = res[j].toLowerCase();
+    
+    if (restaurantName.includes(searchTerm)) {
+      restaurantsList.innerHTML += `
+        <div id="restaurantInfo">
+            <img id="restaurantLogo" src="img/restaurantsLogo/res${j}.png">
+            <p id="restaurantName">${res[j]}</p>
+        </div>
+      `;
+    }
   }
 }
 
